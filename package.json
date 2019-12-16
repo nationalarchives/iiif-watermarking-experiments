@@ -1,0 +1,8 @@
+{
+  "name": "iiif-watermarking-experiements",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "sh bash_commands/start.sh",
+    "stop": "sh bash_commands/stop.sh"
+  }
+}
