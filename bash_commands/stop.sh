@@ -5,7 +5,7 @@ RED='\033[1;31m'
 NO_COLOUR='\033[0m'
 GREEN='\033[1;32m'
 
-for i in 'cantaloupe'
+for i in 'cantaloupe' 'http-server'
 
 do
 

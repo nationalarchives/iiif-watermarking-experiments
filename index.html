@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="§">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Image viewer</title>
+</head>
+<style>
+    #tify {
+        width: 800px;
+        height: 800px;
+    }
+</style>
+<body>
+<h1>Tify</h1>
+<div id="tify"></div>
+<script>
+    tifyOptions = {
+        container: '#tify',
+        init: true,
+        language: 'en',
+        manifest: 'manifest.json',
+        title: null,
+    }
+</script>
+<script src="node_modules/tify/dist/tify.js"></script>
+</body>
+</html>

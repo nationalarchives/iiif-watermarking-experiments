@@ -4,5 +4,8 @@
   "scripts": {
     "start": "sh bash_commands/start.sh",
     "stop": "sh bash_commands/stop.sh"
+  },
+  "dependencies": {
+    "tify": "^0.22.2"
   }
 }
